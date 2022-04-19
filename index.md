@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+<!-- You can do 'boilerplate' code by typing: ! and then ENTER -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
 
-You can use the [editor on GitHub](https://github.com/javievargas3/javievargas3.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
+    <img src="pic.jpg" alt="This is my portfolio" width="1500" 
+    height="400">
+    <nav>
+        <ol>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+             <h1> Javier's Portfolio</h1>
+             <br> 
+             <li> <strong><a href="http://www.movies.com"> Movies </strong><a/></li>
+             <li> <strong><a href="http://www.nba.com" > Nba basketball</strong><a/></li>
+             <li><strong> <a href="http://www.championsleague.com">European Soccer</strong><a/></li>
+             <li><strong> <a href = " http://www.gym.com" > Gym </strong></a></li>
+            </ol>
+        </nav>
+        <div class="hero image">
+            <div class="hero.text"> 
+                <h1 style="size:font- 50px;"> Javier Vargas</h1>
+                <p>Hello its me, please contact me <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname">
+                    <input type="submit" value="Submit">
+                  </form></p>
+                <div/>
+        </div>
 
-### Markdown
+<main>
+    <div>
+        <article>
+            <h1>
+                <strong> My name is Javier Vargas, I enjoy the beach, watching movies, lifting weights, playing basketball and surfing from time to time 
+    <p>  </p>
+        
+</strong>
+            </h1>
+        </article>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/javievargas3/javievargas3.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</main>
+<img src="pic2.jpg" alt="Hello World"width="1500" 
+height="400">
+</body>
+</html>
